@@ -18,6 +18,19 @@ System updated successfully without errors.
 
 Verified SSH service is active and running.
 
+## SSH Installation Fix
+
+Initial error:
+Failed to start ssh.service: Unit ssh.service not found
+
+Solution:
+Installed OpenSSH server manually using:
+
+sudo apt install openssh-server -y
+
+SSH service started and verified successfully.
+
+
 ## Outcome
 
 System ready for Wazuh installation.
